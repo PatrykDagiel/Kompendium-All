@@ -11,7 +11,15 @@ public class HandlerError {
         Random r = new Random();
 
         for (int i = 0; i < 32000; i++) {
-            try
+            try {
+                b = r.nextInt();
+                c = r.nextInt();
+                a = 12345/ (b/c);
+            } catch (ArithmeticException e) {
+                System.out.println("Dzielenie przez zero");
+                a = 0;
+            }
+            System.out.println("a: " + a);
         }
     }
 }
