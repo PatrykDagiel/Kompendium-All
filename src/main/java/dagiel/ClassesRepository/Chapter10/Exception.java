@@ -3,7 +3,7 @@ package dagiel.ClassesRepository.Chapter10;
 /**
  * Created by dagiel on 2016-12-05.
  */
-public class Exception {
+public class Exception extends Throwable {
     public static void main(String[] args) {
         int d, a;
 
