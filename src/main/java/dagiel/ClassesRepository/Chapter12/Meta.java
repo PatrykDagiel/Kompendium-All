@@ -11,18 +11,18 @@ import java.lang.reflect.Method;
 
 @Retention(RetentionPolicy.RUNTIME)
 @interface MyAnno {
-    String str();
-    int val();
+    String str() default "Testing";
+    int val() default 9000;
 }
 
 @Retention(RetentionPolicy.RUNTIME)
 @interface What {
-    String descrption();
+    String description();
 }
-@What(descrption = "Annotation test class")
+@What(description = "Annotation test class")
 @MyAnno(str = "Annotation example", val = 100)
 public class Meta {
-    @What(descrption = "test for method")
+    @What(description = "test for method")
     @MyAnno(str = "Annotation example", val = 100)
     public static void myMeth() {
         Meta ob = new Meta();
@@ -40,6 +40,10 @@ public class Meta {
             System.out.println("No such method found");
         }
     }
+
+
+
+
     public static void main(String[] args) {
         myMeth();
     }
