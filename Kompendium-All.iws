@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b013012-3196-4867-a798-d9ff55ffb412" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter15/EmptyArrayException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter15/LambdaExceptionDemo.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter15/MyFunc.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kompendium-All.iws" afterPath="$PROJECT_DIR$/Kompendium-All.iws" />
     </list>
     <ignored path="Kompendium-All.iws" />
@@ -34,16 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GenArrays.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter14/GenArrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LambdaDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter15/LambdaDemo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,7 +66,7 @@
       <file leaf-file-name="GenericFunctionalInterfaceDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter15/GenericFunctionalInterfaceDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="467">
+            <state relative-caret-position="594">
               <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
               <folding />
             </state>
@@ -87,7 +76,7 @@
       <file leaf-file-name="LambdaAsArgumentsDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter15/LambdaAsArgumentsDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
+            <state relative-caret-position="748">
               <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
               <folding>
                 <element signature="e#247#248#0" expanded="true" />
@@ -97,7 +86,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LambdaExceptionDemo.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LambdaExceptionDemo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter15/LambdaExceptionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="528">
@@ -116,6 +105,16 @@
                 <element signature="e#168#169#0" expanded="true" />
                 <element signature="e#204#205#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyFunc.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter15/MyFunc.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="440">
+              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -146,8 +145,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -162,7 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter12/EnumDemo2.java" />
         <option value="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter12/EnumDemo3.java" />
         <option value="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter12/EnumDemo4.java" />
         <option value="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter12/Answers.java" />
@@ -213,6 +211,7 @@
         <option value="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter15/LambdaAsArgumentsDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter15/EmptyArrayException.java" />
         <option value="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter15/LambdaExceptionDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter15/MyFunc.java" />
       </list>
     </option>
   </component>
@@ -256,6 +255,7 @@
     <panes>
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -312,6 +312,40 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Kompendium-All" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Schildt-Kompendium" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="org.jetbrains.plugins.gradle.projectView.GradleTreeStructureProvider$GradleSourceSetDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ClassesRepository" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Chapter15" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MyFunc.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -610,7 +644,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -619,35 +652,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\dagiel\Documents\Schildt-Kompendium\rsc" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="dagiel.ClassesRepository.Chapter15" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="dagiel.ClassesRepository.Chapter15" />
       <recent name="dagiel.ClassesRepository.Chapter12" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\dagiel\Documents\Schildt-Kompendium\rsc" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.LambdaExceptionDemo">
-    <configuration default="false" name="BlockLambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="dagiel.ClassesRepository.Chapter15.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="dagiel.ClassesRepository.Chapter15.BlockLambdaDemo" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="Kompendium_main" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Application.VarCapture">
     <configuration default="false" name="BlockLambdaDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -716,6 +732,26 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="dagiel.ClassesRepository.Chapter15.LambdaExceptionDemo" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="Kompendium_main" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="VarCapture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="dagiel.ClassesRepository.Chapter15.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="dagiel.ClassesRepository.Chapter15.VarCapture" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -936,19 +972,19 @@
     </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Applet.SimpleApplet" />
-      <item index="1" class="java.lang.String" itemvalue="Application.BlockLambdaDemo" />
-      <item index="2" class="java.lang.String" itemvalue="Application.BlockLambdaDemo2" />
-      <item index="3" class="java.lang.String" itemvalue="Application.GenericFunctionalInterfaceDemo" />
-      <item index="4" class="java.lang.String" itemvalue="Application.LambdaAsArgumentsDemo" />
-      <item index="5" class="java.lang.String" itemvalue="Application.LambdaExceptionDemo" />
+      <item index="1" class="java.lang.String" itemvalue="Application.BlockLambdaDemo2" />
+      <item index="2" class="java.lang.String" itemvalue="Application.GenericFunctionalInterfaceDemo" />
+      <item index="3" class="java.lang.String" itemvalue="Application.LambdaAsArgumentsDemo" />
+      <item index="4" class="java.lang.String" itemvalue="Application.LambdaExceptionDemo" />
+      <item index="5" class="java.lang.String" itemvalue="Application.VarCapture" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.LambdaExceptionDemo" />
-        <item index="1" class="java.lang.String" itemvalue="Application.LambdaAsArgumentsDemo" />
-        <item index="2" class="java.lang.String" itemvalue="Application.GenericFunctionalInterfaceDemo" />
-        <item index="3" class="java.lang.String" itemvalue="Application.BlockLambdaDemo2" />
-        <item index="4" class="java.lang.String" itemvalue="Application.BlockLambdaDemo" />
+        <item index="0" class="java.lang.String" itemvalue="Application.VarCapture" />
+        <item index="1" class="java.lang.String" itemvalue="Application.LambdaExceptionDemo" />
+        <item index="2" class="java.lang.String" itemvalue="Application.LambdaAsArgumentsDemo" />
+        <item index="3" class="java.lang.String" itemvalue="Application.GenericFunctionalInterfaceDemo" />
+        <item index="4" class="java.lang.String" itemvalue="Application.BlockLambdaDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -1141,7 +1177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489492076553</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Commit 14/03/2017 ch.II">
+      <created>1489505169963</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1489505169964</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1151,10 +1194,10 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767856" sideWeight="0.40358362" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3607143" sideWeight="0.5789249" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3607143" sideWeight="0.5814846" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3607143" sideWeight="0.42107508" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.41638225" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3607143" sideWeight="0.41851535" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.4151024" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294643" sideWeight="0.49317408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22525597" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1204,7 +1247,8 @@
     <MESSAGE value="Commit 03/03/2017" />
     <MESSAGE value="Commit 07/03/2017" />
     <MESSAGE value="Commit 14/03/2017" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 14/03/2017" />
+    <MESSAGE value="Commit 14/03/2017 ch.II" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 14/03/2017 ch.II" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1217,13 +1261,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter12/EnumDemo4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter12/Answers.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter12/Question.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1468,12 +1505,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#174#175#0" expanded="false" />
-            <element signature="e#213#214#0" expanded="false" />
-            <element signature="e#235#236#0" expanded="false" />
-            <element signature="e#284#285#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1481,7 +1512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="220">
           <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1489,10 +1519,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="814">
           <caret line="39" column="1" selection-start-line="39" selection-start-column="1" selection-end-line="39" selection-end-column="1" />
-          <folding>
-            <element signature="e#192#193#0" expanded="false" />
-            <element signature="e#216#217#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1500,14 +1526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
           <caret line="32" column="43" selection-start-line="32" selection-start-column="43" selection-end-line="32" selection-end-column="43" />
-          <folding>
-            <element signature="e#130#131#0" expanded="false" />
-            <element signature="e#152#153#0" expanded="false" />
-            <element signature="e#169#170#0" expanded="false" />
-            <element signature="e#194#195#0" expanded="false" />
-            <element signature="e#252#253#0" expanded="false" />
-            <element signature="e#276#277#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1561,7 +1579,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter15/GenericFunctionalInterfaceDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="467">
+        <state relative-caret-position="594">
           <caret line="27" column="71" selection-start-line="27" selection-start-column="71" selection-end-line="27" selection-end-column="71" />
           <folding />
         </state>
@@ -1569,12 +1587,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter15/LambdaAsArgumentsDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
+        <state relative-caret-position="748">
           <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
           <folding>
             <element signature="e#247#248#0" expanded="true" />
             <element signature="e#280#281#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter15/LambdaExceptionDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1589,10 +1615,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter15/LambdaExceptionDemo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter15/MyFunc.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+        <state relative-caret-position="440">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
