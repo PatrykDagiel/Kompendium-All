@@ -23,6 +23,10 @@ public class GenericMethodRefDemo {
     }
 
     public static void main(String[] args) {
-
+        Integer[] vals = { 1, 2, 3, 4, 4, 5, 5, 6, 7, 8, 9 };
+        String[] strs = { "One", "Two", "Three", "Two" };
+        int count;
+        count =  myOp(MyArrayOps::<Integer>countMatching, vals, 4);
+        System.out.println("Vals contains " + count + " 4's");
     }
 }
