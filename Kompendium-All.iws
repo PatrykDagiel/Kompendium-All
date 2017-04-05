@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4b013012-3196-4867-a798-d9ff55ffb412" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter18/ForEachdemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter18/IteratorDemo.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter18/MailList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter18/Spliteratordemo.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Kompendium-All.iws" afterPath="$PROJECT_DIR$/Kompendium-All.iws" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter18/ArrayDequeDemo.java" afterPath="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter18/ArrayDequeDemo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter18/MailList.java" afterPath="$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter18/MailList.java" />
     </list>
     <ignored path="Kompendium-All.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -140,8 +136,8 @@
       <file leaf-file-name="MailList.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter18/MailList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+            <state relative-caret-position="682">
+              <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
               <folding>
                 <element signature="e#462#463#0" expanded="true" />
                 <element signature="e#546#547#0" expanded="true" />
@@ -1017,19 +1013,26 @@
       <option name="project" value="LOCAL" />
       <updated>1490961909747</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="Commit 05/04/2017 ch.I">
+      <created>1491390303337</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1491390303337</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2409" y="-9" width="2418" height="1318" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32767856" sideWeight="0.40358362" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27232143" sideWeight="0.60025597" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27232143" sideWeight="0.39974403" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27232143" sideWeight="0.39974403" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24821429" sideWeight="0.40273038" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294643" sideWeight="0.49317408" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1063,7 +1066,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Commit 23/01" />
     <MESSAGE value="Commit 24/01" />
     <MESSAGE value="Commit 25/01" />
     <MESSAGE value="Commit 26/01" />
@@ -1088,7 +1090,8 @@
     <MESSAGE value="Commit 20/03/2017 ch.I" />
     <MESSAGE value="Commit 30/03/2017 ch.I" />
     <MESSAGE value="Commit 31/03/2017 ch.I" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 31/03/2017 ch.I" />
+    <MESSAGE value="Commit 05/04/2017 ch.I" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit 05/04/2017 ch.I" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1483,8 +1486,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/dagiel/ClassesRepository/Chapter18/MailList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+        <state relative-caret-position="682">
+          <caret line="31" column="62" selection-start-line="31" selection-start-column="62" selection-end-line="31" selection-end-column="62" />
           <folding>
             <element signature="e#462#463#0" expanded="true" />
             <element signature="e#546#547#0" expanded="true" />
