@@ -15,8 +15,19 @@ public class HashMapDemo {
         hm.put("Stephen Rouine", new Double(1000.34));
         hm.put("Pattoriko Dag", new Double(8777.34));
 
-        //Get a set of the entriws
-        Set<Map.Entry<String, Double> set = hm.entrySet();
+        //Get a set of the entries
+        Set<Map.Entry<String, Double>> set = hm.entrySet();
+        System.out.println(set);
+
+        for(Map.Entry<String, Double> me : set) {
+            System.out.print(me.getKey() + ": ");
+            System.out.println(me.getValue());
+        }
+
         System.out.println();
+        double balance = hm.get("John Doe");
+        hm.put("John Doe", balance + 1000);
+
+        System.out.println("John's Doe new balance is " + hm.get("John Doe"));
     }
 }
