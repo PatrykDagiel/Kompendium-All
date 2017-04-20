@@ -7,6 +7,8 @@ import java.util.TreeMap;
 /**
  * Created by dagiel on 07/04/2017.
  */
+
+//TreeMap sorts its keys
 public class TreeMapDemo {
     public static void main(String[] args) {
         TreeMap<String, Double> tm = new TreeMap<String, Double>();
